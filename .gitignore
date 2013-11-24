@@ -1,0 +1,12 @@
+# Mac OS X
+.DS_Store
+
+# Vim
+.*.sw[a-z]
+
+# Emacs
+\#*#
+*~
+
+# Compiler Output
+*.pdf
