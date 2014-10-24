@@ -1,6 +1,6 @@
 % vim:set ts=8 sw=2 sts=2 et:
 
-\version "2.8.0"
+\include "settings.ly"
 
 #(set-default-paper-size "letter")
 
@@ -28,43 +28,43 @@
   R1*8
 
   % 00:26
-  r2. r16 b'16^\markup { 00:26 } r16 dis16 |
-  %\partial 4 r16 b'16^\markup { 00:26 } r16 dis16 |
-  r2 r16 gis, b r16 dis8 cis16 cis16~ |
-  cis16 b r8 r4 r16 gis16 b r16 cis16 dis cis cis16~ |
-  cis16 b r8 r4 r16 gis16 b r16 cis16 b gis r16 |
-  b16 r16 r8 r16 dis,16 g-- gis-. r4 r16 b16^\markup { 00:38 } r16 dis16 |
+  r2. r16 b'16^\markup { 00:26 } r16 ds16 |
+  %\partial 4 r16 b'16^\markup { 00:26 } r16 ds16 |
+  r2 r16 gs, b r16 ds8 cs16 cs16~ |
+  cs16 b r8 r4 r16 gs16 b r16 cs16 ds cs cs16~ |
+  cs16 b r8 r4 r16 gs16 b r16 cs16 b gs r16 |
+  b16 r16 r8 r16 ds,16 g-- gs-. r4 r16 b16^\markup { 00:38 } r16 ds16 |
 
   % 00:38
-  r2 r16 gis,16 b r16 dis8 cis16 cis16~ |
-  cis16 b r8 r4 r16 gis16 b r16 dis16 fis d cis16~ |
-  cis16 b r8 r4 r16 gis16 b gis cis b gis r16 |
-  b16 r16 r8 r16 dis,16 g-- gis-. r16 d16^\markup { 00:49 } dis fis gis c r16 dis16 |
+  r2 r16 gs,16 b r16 ds8 cs16 cs16~ |
+  cs16 b r8 r4 r16 gs16 b r16 ds16 fs d cs16~ |
+  cs16 b r8 r4 r16 gs16 b gs cs b gs r16 |
+  b16 r16 r8 r16 ds,16 g-- gs-. r16 d16^\markup { 00:49 } ds fs gs c r16 ds16 |
 
   % 00:49
-  r2 r16 gis,16 b r16 e8 dis16 dis16~ |
-  dis16 cis r8 r4 r16 gis16 b r16 a'16 g e dis16~ |
-  dis16 cis r8 r4 r16 g16 gis b dis fis cis r16 |
-  dis4-^ gis, cis g'16 cis, r16 dis16 |
+  r2 r16 gs,16 b r16 e8 ds16 ds16~ |
+  ds16 cs r8 r4 r16 gs16 b r16 a'16 g e ds16~ |
+  ds16 cs r8 r4 r16 g16 gs b ds fs cs r16 |
+  ds4-^ gs, cs g'16 cs, r16 ds16 |
 
   % 01:04
-  r2 r16 gis,16^\markup { 01:04} b r16 dis8 cis16 cis16~ |
-  cis16 b r8 r4 r16 gis16 b r16 gis'32 fis dis b cis16 cis16~ |
-  cis16 b r8 r4 r16 dis,16 fis gis b c r8 |
-  cis16 b fis d' cis c fis, gis r16 cis b fis dis' e r16 f16 |
+  r2 r16 gs,16^\markup { 01:04} b r16 ds8 cs16 cs16~ |
+  cs16 b r8 r4 r16 gs16 b r16 gs'32 fs ds b cs16 cs16~ |
+  cs16 b r8 r4 r16 ds,16 fs gs b c r8 |
+  cs16 b fs d' cs c fs, gs r16 cs b fs ds' e r16 f16 |
 
   % 01:16
-  r2 r16 b,16^\markup { 01:16 } cis dis gis r16 f16 dis16~ |
-  dis16 f r8 r4 r16 dis16 cis b gis' fis r16 g16 |
-  r16 g,16 r8 g16 fis f ais gis ais c dis f gis8.-- |
-  a4-^ f ais fis16 b r16 cis16 |
-  r2 r16 cis16^\markup { 01:29 } b gis dis8 cis16 cis16~ |
+  r2 r16 b,16^\markup { 01:16 } cs ds gs r16 f16 ds16~ |
+  ds16 f r8 r4 r16 ds16 cs b gs' fs r16 g16 |
+  r16 g,16 r8 g16 fs f as gs as c ds f gs8.-- |
+  a4-^ f as fs16 b r16 cs16 |
+  r2 r16 cs16^\markup { 01:29 } b gs ds8 cs16 cs16~ |
 
   % 01:29
-  cis16 b r8 r4 r16 gis16 b gis \times 2/3 { dis'16 e fis } cis16 cis16~ |
-  cis16 b r8 r4 r16 gis16 b gis cis b gis r16 |
-  b16 r16 r8 r16 dis,16 g-- gis-. r2 |
-  r16 b16 r16 dis16 r2. |
+  cs16 b r8 r4 r16 gs16 b gs \times 2/3 { ds'16 e fs } cs16 cs16~ |
+  cs16 b r8 r4 r16 gs16 b gs cs b gs r16 |
+  b16 r16 r8 r16 ds,16 g-- gs-. r2 |
+  r16 b16 r16 ds16 r2. |
 
   \bar "|."
 }
