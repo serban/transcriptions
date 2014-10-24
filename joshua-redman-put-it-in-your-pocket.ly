@@ -2,8 +2,6 @@
 
 \include "settings.ly"
 
-#(set-default-paper-size "letter")
-
 \header
 {
   title = "Put It In Your Pocket"
@@ -13,15 +11,18 @@
   meter = "Funk"
 }
 
-\relative
-{
+\relative c' {
+  % TODO(serban): Set this globally
+  \numericTimeSignature
+
   \clef treble
-  \override Staff.TimeSignature #'style = #'()
-  \time 4/4
   \key e \major
+  \time 4/4
 
   \override Score.MetronomeMark #'padding = #3
   \tempo 4 = 80
+
+% ------------------------------------------------------------------------------
 
   \set Score.skipBars = ##t
   \override MultiMeasureRest #'expand-limit = 1

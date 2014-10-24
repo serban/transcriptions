@@ -40,7 +40,7 @@
     % TODO(serban): Set this globally
     \numericTimeSignature
 
-    \clef "treble"
+    \clef treble
 %   \key ef \major
     \time 4/4
 
