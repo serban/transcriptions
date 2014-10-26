@@ -2,17 +2,14 @@
 
 \include "settings.ly"
 
-\header
-{
+\header {
   title = "Put It In Your Pocket"
   subtitle = "Joshua Redman Elastic Band - Momentum"
   composer = "Joshua Redman"
-  instrument = \markup { "E" \small \raise #1 \flat " Alto Sax" }
   meter = "Funk"
 }
 
-\relative c' {
-  % TODO(serban): Set this globally
+melody = \relative c' {
   \numericTimeSignature
 
   \clef treble
@@ -21,8 +18,6 @@
 
   \override Score.MetronomeMark #'padding = #3
   \tempo 4 = 80
-
-% ------------------------------------------------------------------------------
 
   \set Score.skipBars = ##t
   \override MultiMeasureRest #'expand-limit = 1
@@ -68,4 +63,22 @@
   r16 b16 r16 ds16 r2. |
 
   \bar "|."
+}
+
+\book {
+  \transpose c ef \melody
+}
+
+\book {
+  \header {
+    instrument = \markup { "E" \small \raise #1 \flat "Alto Sax" }
+  }
+  \melody
+}
+
+\book {
+  \header {
+    instrument = \markup { "B" \small \raise #1 \flat "Tenor Sax" }
+  }
+  \transpose bf, ef \melody
 }

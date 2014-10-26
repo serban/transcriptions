@@ -4,9 +4,8 @@
 
 \language "english"
 
-#(set-default-paper-size "letter")
-
 \paper {
+  #(set-paper-size "letter")
   indent = 0
   tagline = #(strftime "Engraved on %b %e, %Y %H:%M" (localtime (current-time)))
 }
