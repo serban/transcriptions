@@ -66,10 +66,12 @@ melody = \relative c' {
 }
 
 \book {
+  #(define output-suffix "concert")
   \transpose c ef \melody
 }
 
 \book {
+  #(define output-suffix "alto")
   \header {
     instrument = \markup { "E" \small \raise #1 \flat "Alto Sax" }
   }
@@ -77,6 +79,7 @@ melody = \relative c' {
 }
 
 \book {
+  #(define output-suffix "tenor")
   \header {
     instrument = \markup { "B" \small \raise #1 \flat "Tenor Sax" }
   }

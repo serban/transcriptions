@@ -4,6 +4,8 @@
 
 \language "english"
 
+\pointAndClickOff
+
 \paper {
   #(set-paper-size "letter")
   indent = 0

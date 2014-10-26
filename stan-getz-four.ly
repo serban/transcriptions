@@ -138,10 +138,12 @@ chart = {
 % ------------------------------------------------------------------------------
 
 \book {
+  #(define output-suffix "concert")
   \chart
 }
 
 \book {
+  #(define output-suffix "alto")
   \header {
     instrument = \markup { "E" \small \raise #1 \flat "Alto Sax" }
   }
@@ -149,6 +151,7 @@ chart = {
 }
 
 \book {
+  #(define output-suffix "tenor")
   \header {
     instrument = \markup { "B" \small \raise #1 \flat "Tenor Sax" }
   }
