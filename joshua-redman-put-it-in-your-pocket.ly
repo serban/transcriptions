@@ -44,7 +44,7 @@ melody = \relative c' {
   ds4-^ gs, cs g'16 cs, r16 ds16 |
 
   % 01:04
-  r2 r16 gs,16^\markup { 01:04} b r16 ds8 cs16 cs16~ |
+  r2 r16 gs,16^\markup { 01:04 } b r16 ds8 cs16 cs16~ |
   cs16 b r8 r4 r16 gs16 b r16 gs'32 fs ds b cs16 cs16~ |
   cs16 b r8 r4 r16 ds,16 fs gs b c r8 |
   cs16 b fs d' cs c fs, gs r16 cs b fs ds' e r16 f16 |
@@ -57,7 +57,7 @@ melody = \relative c' {
   r2 r16 cs16^\markup { 01:29 } b gs ds8 cs16 cs16~ |
 
   % 01:29
-  cs16 b r8 r4 r16 gs16 b gs \times 2/3 { ds'16 e fs } cs16 cs16~ |
+  cs16 b r8 r4 r16 gs16 b gs \tuplet 3/2 { ds'16 e fs } cs16 cs16~ |
   cs16 b r8 r4 r16 gs16 b gs cs b gs r16 |
   b16 r16 r8 r16 ds,16 g-- gs-. r2 |
   r16 b16 r16 ds16 r2. |
