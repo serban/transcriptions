@@ -64,7 +64,7 @@ melody = \relative c' {
     r8 c8 f8 a8 g8 f8 e8 f8 |
     g8 f8 a8 df,8~ df8 g8~ g8 bf8 |
     a4. bf8 c8 a8 bf8 c8 |
-    \tuplet 3/2 { df8 bf8 gf8 } ef8 c'4~ c8 bf8 a8~ |
+    \tuplet 3/2 { df8 bf8 gf8 } ef8 c'8~ c4 bf8 a8~ |
     \break
 
     a8 bf8 c8 a8 bf8 c4 gf8~ |
@@ -98,7 +98,7 @@ melody = \relative c' {
   r8 c8 f8 a8 g8 f8 e8 f8 |
   g8 f8 a8 df,8~ df8 g8~ g8 bf8 |
   a4. bf8 c8 a8 bf8 c8 |
-  \tuplet 3/2 { df8 bf8 gf8 } ef8 c'4~ c8 bf8 a8~ |
+  \tuplet 3/2 { df8 bf8 gf8 } ef8 c'8~ c4 bf8 a8~ |
   \break
 
   a8 bf8 c8 a8 bf8 c4 gf8~ |
