@@ -59,19 +59,21 @@ melody = \relative c' {
   \relative c' { bf'8 f d bf ef' bf g ef | af' ef c af df af f df | } \bar "||" \break
   \relative c' { gf''8 df bf gf b fs ds b | e' b gs e a' e cs a | } \bar "||" \break
 
-  \mark \default
-  % D7-G7-C7-F7 / Bb7-Eb7-Ab7-Db7 / Gb7-B7-E7-A7
-  \relative c' { d8 fs a c g b d f | c, e g bf f a c ef | } \bar "||" \break
-  \relative c' { bf8 d f af ef g bf df | af c ef gf df, f af cf | } \bar "||" \break
-  \relative c' { gf'8 bf df ff b,, ds fs a | e gs b d a cs e g | } \bar "||" \break
-
   \pageBreak
 
   \mark \default
   % D7-G7-C7-F7 / Bb7-Eb7-Ab7-Db7 / Gb7-B7-E7-A7
-  \relative c' { c'8 a fs d f' d b g | bf g e c ef' c a f | } \bar "||" \break
-  \relative c' { af'8 f d bf df' bf g ef | gf' ef c af cf af f df | } \bar "||" \break
-  \relative c' { ff'8 df bf gf a fs ds b | d' b gs e g' e cs a | } \bar "||" \break
+  \relative c' { d8 fs a c g b d f | c e g bf f, a c ef | } \bar "||" \break
+  \relative c' { bf'8 d f af ef, g bf df | af c ef gf df f af cf | } \bar "||" \break
+  \relative c' { gf'8 bf df ff b, ds fs a | e, gs b d a cs e g | } \bar "||" \break
+
+  \mark \default
+  % D7-G7-C7-F7 / Bb7-Eb7-Ab7-Db7 / Gb7-B7-E7-A7
+  \relative c' { c'8 a fs d f' d b g | bf' g e c ef c a f | } \bar "||" \break
+  \relative c' { af''8 f d bf df bf g ef | gf' ef c af cf' af f df | } \bar "||" \break
+  \relative c' { ff'8 df bf gf a' fs ds b | d b gs e g' e cs a | } \bar "||" \break
+
+  \pageBreak
 
   \mark \default
   % Dm7-Gm7-Cm7-Fm7 / Bbm7-Ebm7-Abm7-Dbm7 / Gbm7-Bm7-Em7-Am7
