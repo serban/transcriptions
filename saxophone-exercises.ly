@@ -66,6 +66,8 @@ melody = \relative c' {
   \relative c' { bf8 d f af ef g bf df | af c ef gf df, f af cf | } \bar "||" \break
   \relative c' { gf'8 bf df ff b,, ds fs a | e gs b d a cs e g | } \bar "||" \break
 
+  \pageBreak
+
   \mark \default
   % D7-G7-C7-F7 / Bb7-Eb7-Ab7-Db7 / Gb7-B7-E7-A7
   \relative c' { c'8 a fs d f' d b g | bf g e c ef' c a f | } \bar "||" \break
