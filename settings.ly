@@ -7,7 +7,11 @@
 \paper {
   #(set-paper-size "letter")
   indent = 0
-  tagline = #(strftime "Engraved on %b %e, %Y %H:%M" (localtime (current-time)))
+  oddFooterMarkup = \markup {
+    \fill-line {
+      #(strftime "Engraved on %b %e, %Y %H:%M" (localtime (current-time)))
+    }
+  }
 }
 
 \layout {
