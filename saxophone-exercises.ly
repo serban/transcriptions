@@ -28,14 +28,13 @@ changes = \chords {
   bf2:7 ef2:7 | af2:7 df2:7 |
   gf2:7 b2:7 | e2:7 a2:7 |
 
-% d2:m7 g2:m7 | c2:m7 f2:m7 |
-% d2:m7 g2:m7 | c2:m7 f2:m7 |
+  d2:m7 g2:m7 | c2:m7 f2:m7 |
+  bf2:m7 ef2:m7 | af2:m7 df2:m7 |
+  gf2:m7 b2:m7 | e2:m7 a2:m7 |
 
-% bf2:m7 ef2:m7 | af2:m7 df2:m7 |
-% bf2:m7 ef2:m7 | af2:m7 df2:m7 |
-
-% gf2:m7 b2:m7 | e2:m7 a2:m7 |
-% gf2:m7 b2:m7 | e2:m7 a2:m7 |
+  d2:m7 g2:m7 | c2:m7 f2:m7 |
+  bf2:m7 ef2:m7 | af2:m7 df2:m7 |
+  gf2:m7 b2:m7 | e2:m7 a2:m7 |
 }
 
 melody = \relative c' {
@@ -73,6 +72,20 @@ melody = \relative c' {
   \relative c' { c'8 a fs d f' d b g | bf g e c ef' c a f | } \bar "||" \break
   \relative c' { af'8 f d bf df' bf g ef | gf' ef c af cf af f df | } \bar "||" \break
   \relative c' { ff'8 df bf gf a fs ds b | d' b gs e g' e cs a | } \bar "||" \break
+
+  \mark \default
+  % Dm7-Gm7-Cm7-Fm7 / Bbm7-Ebm7-Abm7-Dbm7 / Gbm7-Bm7-Em7-Am7
+  \relative c' { d8 f a c g bf d f | c, ef g bf f af c ef | } \bar "||" \break
+  \relative c' { bf8 df f af ef gf bf df | af cf ef gf df, ff af cf | } \bar "||" \break
+  \relative c' { gf'8 bff df ff b,, d fs a | e g b d a c e g | } \bar "||" \break
+
+  \mark \default
+  % Dm7-Gm7-Cm7-Fm7 / Bbm7-Ebm7-Abm7-Dbm7 / Gbm7-Bm7-Em7-Am7
+  \relative c' { c'8 a f d f' d bf g | bf g ef c ef' c af f | } \bar "||" \break
+  \relative c' { af'8 f df bf df' bf gf ef | gf' ef cf af cf af ff df | } \bar "||" \break
+  \relative c' { ff'8 df bff gf a fs d b | d' b g e g' e c a | } \bar "||" \break
+
+  \pageBreak
 }
 
 chart = {
