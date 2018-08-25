@@ -49,15 +49,15 @@ melody = \relative c' {
 
   \mark \default
   % D-G-C-F / Bb-Eb-Ab-Db / Gb-B-E-A
-  \relative c' { d8 fs a d g, b d g | c,, e g c f, a c f | } \bar "||" \break
-  \relative c' { bf8 d f bf ef, g bf ef | af, c ef af df,, f af df | } \bar "||" \break
-  \relative c' { gf'8 bf df gf b,, ds fs b | e, gs b e a, cs e a | } \bar "||" \break
+  \relative c' { d8 fs a d g, b d g | c, e g c f,, a c f | } \bar "||" \break
+  \relative c' { bf'8 d f bf ef,, g bf ef | af, c ef af df, f af df | } \bar "||" \break
+  \relative c' { gf'8 bf df gf b, ds fs b | e,, gs b e a, cs e a | } \bar "||" \break
 
   \mark \default
   % D-G-C-F / Bb-Eb-Ab-Db / Gb-B-E-A
-  \relative c' { d'8 a fs d g' d b g | c g e c f' c a f | } \bar "||" \break
-  \relative c' { bf'8 f d bf ef' bf g ef | af' ef c af df af f df | } \bar "||" \break
-  \relative c' { gf''8 df bf gf b fs ds b | e' b gs e a' e cs a | } \bar "||" \break
+  \relative c' { d'8 a fs d g' d b g | c' g e c f c a f | } \bar "||" \break
+  \relative c' { bf''8 f d bf ef bf g ef | af' ef c af df' af f df | } \bar "||" \break
+  \relative c' { gf''8 df bf gf b' fs ds b | e b gs e a' e cs a | } \bar "||" \break
 
   \pageBreak
 
@@ -77,15 +77,15 @@ melody = \relative c' {
 
   \mark \default
   % Dm7-Gm7-Cm7-Fm7 / Bbm7-Ebm7-Abm7-Dbm7 / Gbm7-Bm7-Em7-Am7
-  \relative c' { d8 f a c g bf d f | c, ef g bf f af c ef | } \bar "||" \break
-  \relative c' { bf8 df f af ef gf bf df | af cf ef gf df, ff af cf | } \bar "||" \break
-  \relative c' { gf'8 bff df ff b,, d fs a | e g b d a c e g | } \bar "||" \break
+  \relative c' { d8 f a c g bf d f | c ef g bf f, af c ef | } \bar "||" \break
+  \relative c' { bf'8 df f af ef, gf bf df | af cf ef gf df ff af cf | } \bar "||" \break
+  \relative c' { gf'8 bff df ff b, d fs a | e, g b d a c e g | } \bar "||" \break
 
   \mark \default
   % Dm7-Gm7-Cm7-Fm7 / Bbm7-Ebm7-Abm7-Dbm7 / Gbm7-Bm7-Em7-Am7
-  \relative c' { c'8 a f d f' d bf g | bf g ef c ef' c af f | } \bar "||" \break
-  \relative c' { af'8 f df bf df' bf gf ef | gf' ef cf af cf af ff df | } \bar "||" \break
-  \relative c' { ff'8 df bff gf a fs d b | d' b g e g' e c a | } \bar "||" \break
+  \relative c' { c'8 a f d f' d bf g | bf' g ef c ef c af f | } \bar "||" \break
+  \relative c' { af''8 f df bf df bf gf ef | gf' ef cf af cf' af ff df | } \bar "||" \break
+  \relative c' { ff'8 df bff gf a' fs d b | d b g e g' e c a | } \bar "||" \break
 
   \pageBreak
 }
