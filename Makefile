@@ -15,7 +15,7 @@ bop-for-bebo := \
 	bop-for-bebo-tenor.pdf \
 	#
 bop-for-bebo: ${bop-for-bebo}
-${bop-for-bebo} &: bop-for-bebo.ly settings.ily
+${bop-for-bebo} &: bop-for-bebo.ly settings.ily books.ily
 	lilypond bop-for-bebo.ly
 
 funk-in-deep-freeze := \
@@ -24,7 +24,7 @@ funk-in-deep-freeze := \
 	funk-in-deep-freeze-tenor.pdf \
 	#
 funk-in-deep-freeze: ${funk-in-deep-freeze}
-${funk-in-deep-freeze} &: funk-in-deep-freeze.ly settings.ily
+${funk-in-deep-freeze} &: funk-in-deep-freeze.ly settings.ily books.ily
 	lilypond funk-in-deep-freeze.ly
 
 put-it-in-your-pocket := \

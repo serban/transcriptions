@@ -1,3 +1,5 @@
+\version "2.22.2"
+
 \include "settings.ily"
 
 \header {
@@ -5,7 +7,7 @@
   composer = "Ariel Fogel"
 }
 
-changes = \chords {
+changes = \chordmode {
   \set chordChanges = ##t
 
   \repeat volta 2 {
@@ -108,30 +110,9 @@ melody = \relative c' {
 
 chart = {
   <<
-    \changes
-    \melody
+    \new ChordNames \changes
+    \new Staff \melody
   >>
 }
 
-% ------------------------------------------------------------------------------
-
-\book {
-  #(define output-suffix "concert")
-  \chart
-}
-
-\book {
-  #(define output-suffix "alto")
-  \header {
-    instrument = \markup { "E" \small \raise #1 \flat "Alto Sax" }
-  }
-  \transpose ef c' \chart
-}
-
-\book {
-  #(define output-suffix "tenor")
-  \header {
-    instrument = \markup { "B" \small \raise #1 \flat "Tenor Sax" }
-  }
-  \transpose bf, c \chart
-}
+\include "books.ily"

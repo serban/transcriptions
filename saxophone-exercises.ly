@@ -1,3 +1,5 @@
+\version "2.22.2"
+
 \include "settings.ily"
 
 \layout {
@@ -9,7 +11,7 @@
   composer = "Serban Giuroiu"
 }
 
-changes = \chords {
+changes = \chordmode {
   \set chordChanges = ##t
 
   d2 g2 | c2 f2 |
@@ -90,13 +92,11 @@ melody = \relative c' {
   \pageBreak
 }
 
-chart = {
-  <<
-    \changes
-    \melody
-  >>
-}
-
 \book {
-  \chart
+  \score {
+    <<
+      \new ChordNames \changes
+      \new Staff \melody
+    >>
+  }
 }

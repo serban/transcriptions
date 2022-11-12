@@ -1,3 +1,5 @@
+\version "2.22.2"
+
 \include "settings.ily"
 
 \header {
@@ -6,7 +8,7 @@
   composer = "Miles Davis"
 }
 
-changes = \chords {
+changes = \chordmode {
   \set chordChanges = ##t
 
   ef1:maj7 |
@@ -128,8 +130,8 @@ tenorSolo = \relative c'' {
 
 chart = {
   <<
-    \changes
-    \tenorSolo
+    \new ChordNames \changes
+    \new Staff \tenorSolo
   >>
 }
 
@@ -137,7 +139,9 @@ chart = {
 
 \book {
   #(define output-suffix "concert")
-  \chart
+  \score {
+    \chart
+  }
 }
 
 \book {
@@ -145,7 +149,9 @@ chart = {
   \header {
     instrument = \markup { "E" \small \raise #1 \flat "Alto Sax" }
   }
-  \transpose ef c \chart
+  \score {
+    \transpose ef c \chart
+  }
 }
 
 \book {
@@ -153,5 +159,7 @@ chart = {
   \header {
     instrument = \markup { "B" \small \raise #1 \flat "Tenor Sax" }
   }
-  \transpose bf, c \chart
+  \score {
+    \transpose bf, c \chart
+  }
 }

@@ -1,3 +1,5 @@
+\version "2.22.2"
+
 \include "settings.ily"
 
 \header {
@@ -5,6 +7,10 @@
   subtitle = "Joshua Redman Elastic Band - Momentum"
   composer = "Joshua Redman"
   meter = "Funk"
+}
+
+changes = \chordmode {
+  \set chordChanges = ##t
 }
 
 melody = \relative c' {
@@ -63,9 +69,18 @@ melody = \relative c' {
   \bar "|."
 }
 
+chart = {
+  <<
+    \new ChordNames \changes
+    \new Staff \melody
+  >>
+}
+
 \book {
   #(define output-suffix "concert")
-  \transpose c ef \melody
+  \score {
+    \transpose c ef \chart
+  }
 }
 
 \book {
@@ -73,7 +88,9 @@ melody = \relative c' {
   \header {
     instrument = \markup { "E" \small \raise #1 \flat "Alto Sax" }
   }
-  \melody
+  \score {
+    \chart
+  }
 }
 
 \book {
@@ -81,5 +98,7 @@ melody = \relative c' {
   \header {
     instrument = \markup { "B" \small \raise #1 \flat "Tenor Sax" }
   }
-  \transpose bf, ef \melody
+  \score {
+    \transpose bf, ef \chart
+  }
 }

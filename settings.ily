@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.22.2"
 
 \language "english"
 
@@ -9,7 +9,7 @@
   indent = 0
   oddFooterMarkup = \markup {
     \fill-line {
-      #(strftime "Engraved on %b %e, %Y %H:%M" (localtime (current-time)))
+      #(strftime "%Y-%m-%d %H:%M" (localtime (current-time)))
     }
   }
 }
