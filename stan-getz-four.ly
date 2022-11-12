@@ -1,4 +1,4 @@
-\include "settings.ly"
+\include "settings.ily"
 
 \header {
   title = "Four"

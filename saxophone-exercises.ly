@@ -1,4 +1,4 @@
-\include "settings.ly"
+\include "settings.ily"
 
 \layout {
   ragged-right = ##t

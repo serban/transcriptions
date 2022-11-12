@@ -9,7 +9,7 @@ gmake
 ## Iterate
 
 ```fish
-watchexec --clear --exts ly gmake
+watchexec --clear --exts ly,ily gmake
 ```
 
 ## TODO
