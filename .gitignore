@@ -1,12 +1,11 @@
-# Mac OS X
+# macOS
 .DS_Store
 
 # Vim
+.sw[a-z]
 .*.sw[a-z]
 
-# Emacs
-\#*#
-*~
-
-# Compiler Output
+# Output
+*.midi
 *.pdf
+*.wav

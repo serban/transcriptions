@@ -1,5 +1,11 @@
 # Transcriptions
 
+## Setup
+
+```fish
+brew install make lilypond timidity watchexec
+```
+
 ## Build
 
 ```fish
